@@ -1,11 +1,10 @@
 # TextLens
 
-TextLens is a web-based application that processes and analyzes text from images or documents using Optical Character Recognition (OCR) and Natural Language Processing (NLP) techniques. It allows users to upload media, extract text, and perform tasks such as translation, sentiment analysis, and keyword extraction. The application integrates Cloudinary for efficient media storage and management.
+Introducing  TextLens 🌟. Harness TesseractJS to effortlessly convert image text into editable, copyable text. Unleash the power of visualization! 💡
 
 ## Features
 
 - **Text Extraction**: Upload images or documents to extract text using OCR.
-- **Translation**: Translate extracted text into multiple languages.
 - **Sentiment Analysis**: Analyze the sentiment of the extracted text to determine its tone.
 - **Keyword Extraction**: Identify and extract key terms from the text.
 - **Media Management**: Efficiently store and manage uploaded media using Cloudinary.
