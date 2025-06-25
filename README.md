@@ -74,13 +74,20 @@
 Add the following environment variables to your .env file in the server folder
 
 PORT
+
 CLOUDINARY_API_KEY
+
 CLOUDINARY_API_SECRET
+
+
+Add the following environment variables to your .env file in the client folder
+
+VITE_API_URL=http://localhost:5000
 
 
 3. **Access the Application**:
 
-   Open your browser and navigate to `http://localhost:3000` to use TextLens.
+   Open your browser and navigate to `http://localhost:5000` to use TextLens.
 
 ## Configuration
 
