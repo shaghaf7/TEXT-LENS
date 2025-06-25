@@ -1,15 +1,29 @@
-# TextLens
+# 🧠 TextLens
 
-Introducing  TextLens 🌟. Harness TesseractJS to effortlessly convert image text into editable, copyable text. Unleash the power of visualization! 💡
+**TextLens** is a full-stack web application that uses **Tesseract.js** to extract text from uploaded images. With an intuitive UI and seamless backend processing, it converts visual information into editable and copyable text.
 
-## Features
+> ✨ Harness the power of visualization – from image to text in seconds!
 
-- **Text Extraction**: Upload images or documents to extract text using OCR.
-- **Sentiment Analysis**: Analyze the sentiment of the extracted text to determine its tone.
-- **Keyword Extraction**: Identify and extract key terms from the text.
-- **Media Management**: Efficiently store and manage uploaded media using Cloudinary.
+---
 
-## Installation
+## 🔧 Tech Stack
+
+### 🖼️ Frontend
+- React
+- Redux
+- Tailwind CSS
+
+### ⚙️ Backend
+- Node.js
+- Express.js
+- Tesseract.js
+
+### ☁️ Cloud Storage
+- Cloudinary
+
+---
+
+## 🚀 Getting Started – Run Locally
 
 1. **Clone the Repository**:
 
@@ -57,6 +71,12 @@ Introducing  TextLens 🌟. Harness TesseractJS to effortlessly convert image te
    cd ../server
    npm start
    ```
+Add the following environment variables to your .env file in the server folder
+
+PORT
+CLOUDINARY_API_KEY
+CLOUDINARY_API_SECRET
+
 
 3. **Access the Application**:
 
